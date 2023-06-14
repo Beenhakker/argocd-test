@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/Beenhakker/argocd-test.git
     targetRevision: HEAD
-    path: environments/staging/my-app-second
+    path: environments/staging/second-my-app
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
